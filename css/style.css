@@ -45,3 +45,13 @@ main{
   background-color: #f1f1f1;
   min-height: 92vh;
 }
+
+/* footer */
+
+footer{
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+}
