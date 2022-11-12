@@ -79,6 +79,7 @@ input, textarea{
 
 textarea{
   max-height: 120px;
+  resize: none;
 }
 
 
