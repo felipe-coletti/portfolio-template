@@ -65,6 +65,23 @@ div{
   height: auto;
 }
 
+div h1, div h3, div p, div input, div button{
+  margin-bottom: 3%;
+}
+
+input, textarea{
+  background-color: #fff;
+  border: none;
+  padding: 2%;
+  text-align: top;
+  width: 100%;
+}
+
+textarea{
+  max-height: 120px;
+}
+
+
 div img{
   width: 100%;
   height: auto;
