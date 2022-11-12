@@ -46,8 +46,12 @@ main{
   min-height: 92vh;
 }
 
-section{
+#home{
   height: 92vh;
+}
+
+#about-me, #experience, #projects, #contact{
+  height: 100vh;
 }
 
 /* footer */
