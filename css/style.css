@@ -73,9 +73,10 @@ div h1, div h3, div p, div input, div button{
 input, textarea{
   background-color: #fff;
   border: none;
-  padding: 2%;
+  padding-block: 2%;
+  padding-inline: 4%;
   text-align: top;
-  border-radius: 0.5em;
+  border-radius: 1em;
   width: 100%;
 }
 
