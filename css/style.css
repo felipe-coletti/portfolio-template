@@ -46,6 +46,10 @@ main{
   min-height: 92vh;
 }
 
+section{
+  height: 92vh;
+}
+
 /* footer */
 
 footer{
