@@ -54,6 +54,22 @@ main{
   height: 100vh;
 }
 
+section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div{
+  width: 300px;
+  height: auto;
+}
+
+div img{
+  width: 100%;
+  height: auto;
+}
+
 /* footer */
 
 footer{
