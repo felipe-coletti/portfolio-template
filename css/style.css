@@ -66,7 +66,7 @@ div{
   height: auto;
 }
 
-div h1, div h3, div p, div input, div button{
+div h1, div h3, div p, div input, div textarea, div button{
   margin-bottom: 3%;
 }
 
