@@ -6,6 +6,7 @@
 
 body{
   font-size: 14px;
+  letter-spacing: 3px;
 }
 
 /* navegation */
@@ -15,6 +16,12 @@ header{
   justify-content: space-around;
   align-items: center;
   height: 8vh;
+}
+
+.list-title{
+  font-size: 24px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 ul{
