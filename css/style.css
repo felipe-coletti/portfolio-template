@@ -1,7 +1,7 @@
 *{
   margin: 0%;
   padding: 0%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
 body{
@@ -10,9 +10,20 @@ body{
 
 /* navegation */
 
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+}
+
 ul{
   list-style: none;
-  justify-content: center;
+  display: flex;
+}
+
+li{
+  padding-inline: 16px;
 }
 
 a{
