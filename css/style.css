@@ -104,6 +104,7 @@ button{
   border-radius: 2em;
   min-width: 120px;
   min-height: 35px;
+  color: #fff;
 }
 
 button a{
