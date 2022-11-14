@@ -78,7 +78,7 @@ h2{
   font-size: 24px;
 }
 
-div h1, div h2, div p, div input, div textarea, div button{
+h1, h2, main p, input, textarea, button{
   margin-bottom: 3%;
 }
 
