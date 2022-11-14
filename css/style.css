@@ -70,6 +70,14 @@ div{
   height: auto;
 }
 
+h1{
+  font-size: 38px;
+}
+
+h2{
+  font-size: 24px;
+}
+
 div h1, div h2, div p, div input, div textarea, div button{
   margin-bottom: 3%;
 }
