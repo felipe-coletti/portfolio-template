@@ -1,128 +1,101 @@
 *{
   margin: 0%;
   padding: 0%;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-}
-
-html{
-  scroll-behavior: smooth;
-}
-
-/* navegation */
-
-header{
-  background-color: #fff;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 8vh;
-}
-
-.list-title{
-  font-size: 24px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-ul{
-  font-size: 14px;
-  list-style: none;
-  display: flex;
-}
-
-li{
-  padding-inline: 16px;
-}
-
-a{
-  color: #000;
-  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* content */
 
 main{
-  font-size: 18px;
   background-color: #f9f9f9;
-  min-height: 92vh;
-}
-
-#home, #contact{
-  height: 92vh;
-}
-
-#about-me, #experience, #projects{
-  height: 100vh;
-}
-
-section{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  min-height: 100vh;
 }
 
-div{
-  width: 300px;
-  height: auto;
+section{
+  width: 35%;
+  height: 90%;
+}
+
+fieldset{
+  background-color: #fff;
+  border: none;
+  border-radius: 0.5em;
+  padding: 5%;
+  box-shadow: 0 4px 8px 0 #d3d3d3;
 }
 
 h1{
-  font-size: 48px;
+  font-size: 32px;
 }
 
 h2{
-  font-size: 24px;
+  font-size: 14px;
+  font-weight: normal;
 }
 
-main p{
+p{
+  font-size: 14px;
+  text-align: center;
   opacity: 70%;
 }
 
-h1, h2, main p, input, textarea, button{
-  margin-bottom: 3%;
+a{
+  text-decoration: none;
 }
 
-input, textarea{
-  background-color: #fff;
+input{
+  border: 1px solid #000;
+  width: 92%;
+}
+
+form button{
+  background: #7d00ab;
   border: none;
-  padding-block: 2%;
-  padding-inline: 4%;
-  text-align: top;
-  border-radius: 1.25em;
-  width: 100%;
-}
-
-textarea{
-  max-height: 120px;
-  resize: none;
-}
-
-button{
-  background-color: #000;
-  border: none;
-  padding: 2%;
+  font-weight: bold;
   border-radius: 2em;
-  min-width: 100px;
-  min-height: 35px;
-  color: #fff;
-}
-
-button a{
-  color: #fff;
-}
-
-img{
   width: 100%;
-  height: auto;
+  color: #fff;
+  cursor: pointer;
+}
+
+div button{
+  background: transparent;
+  border: 1px solid #000;
+  font-weight: bold;
+  border-radius: 2em;
+  width: 100%;
+  cursor: pointer;
+}
+
+fieldset, h1, h2, input, main p, button{
+  margin-bottom: 2%;
+}
+
+input, button{
+  padding: 3%;
 }
 
 /* footer */
 
 footer{
-  font-size: 14px;
-  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 8vh;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+}
+
+li{
+  padding: 16px;
+}
+
+li a{
+  color: #000;
 }
