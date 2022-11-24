@@ -149,11 +149,9 @@ button{
   background-color: #000;
   border: none;
   font-weight: bold;
-  padding-block: 2%;
-  padding-inline: 4%;
+  padding-block: 3.5%;
+  padding-inline: 7%;
   border-radius: 2em;
-  min-width: 100px;
-  min-height: 35px;
   color: #fff;
 }
 
