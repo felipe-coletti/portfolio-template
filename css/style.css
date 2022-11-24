@@ -11,17 +11,22 @@ html{
 /* navegation */
 
 header{
+  position: fixed;
   background-color: #fff;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding-inline: 48px;
+  width: calc(100% - 96px);
   height: 8vh;
+  z-index: 1;
 }
 
 .list-title{
   font-size: 24px;
   letter-spacing: 3px;
   text-transform: uppercase;
+  padding-inline: 16px;
 }
 
 ul{
@@ -44,27 +49,31 @@ a{
 main{
   font-size: 14px;
   background-color: #f9f9f9;
-  min-height: 92vh;
+  min-height: 93vh;
 }
 
-#home, #contact{
-  height: 92vh;
+#contact{
+  height: 93vh;
 }
 
-#about-me, #experience, #projects{
+#home, #about-me, #experience, #projects{
   height: 100vh;
+}
+
+#home, #experience, #contact{
+  background-color: #fff;
+}
+
+#about-me, #projects{
+  background-color: #f9f9f9;
 }
 
 section{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding-inline: 64px;
 }
-
-/*div{
-  width: 300px;
-  height: auto;
-}*/
 
 .title-area{
   text-align: center;
@@ -111,7 +120,7 @@ h1, #home h2, h3, main p, input, textarea, button{
 }
 
 input, textarea{
-  background-color: #fff;
+  background-color: #f9f9f9;
   border: none;
   padding-block: 2%;
   padding-inline: 4%;
@@ -128,6 +137,7 @@ textarea{
 button{
   background-color: #000;
   border: none;
+  font-weight: bold;
   padding: 2%;
   border-radius: 2em;
   min-width: 100px;
@@ -152,5 +162,5 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 8vh;
+  height: 7vh;
 }
