@@ -83,6 +83,7 @@ section{
 
 .title-area{
   text-align: center;
+  margin-bottom: 32px;
 }
 
 .content{
@@ -126,7 +127,7 @@ h3, main p{
   opacity: 70%;
 }
 
-h1, #home h2, h3, main p, input, textarea, button{
+h1, #home h2, #home h3, main p, input, textarea, button{
   margin-bottom: 3%;
 }
 
