@@ -68,9 +68,16 @@ main{
   background-color: #f9f9f9;
 }
 
+#home{
+  justify-content: space-between;
+}
+
+#about-me, #experience, #projects, #contact{
+  justify-content: center;
+}
+
 section{
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-inline: 64px;
 }
@@ -81,6 +88,11 @@ section{
 
 .content{
   display: flex;
+  justify-content: space-between;
+}
+
+.title-area, .content{
+  width: 632px;
 }
 
 .image-area{
@@ -154,6 +166,10 @@ img{
   width: 100%;
   height: auto;
 }
+
+/*.title-area, .content, h1, h2, h3, p, input, textarea, button{
+  border: 1px solid #000;
+}*/
 
 /* footer */
 
