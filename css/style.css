@@ -48,11 +48,11 @@ a{
 
 main{
   font-size: 14px;
-  min-height: 93vh;
+  min-height: 94vh;
 }
 
 #contact{
-  height: 93vh;
+  height: 94vh;
 }
 
 #home, #about-me, #experience, #projects{
@@ -177,5 +177,5 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 7vh;
+  height: 6vh;
 }
