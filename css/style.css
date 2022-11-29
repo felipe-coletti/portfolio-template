@@ -1,16 +1,16 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 /* navegation */
 
-header{
+header {
   position: fixed;
   background-color: #fff;
   display: flex;
@@ -22,116 +22,116 @@ header{
   z-index: 1;
 }
 
-.list-title{
+.list-title {
   font-size: 24px;
   letter-spacing: 3px;
   text-transform: uppercase;
   padding-inline: 16px;
 }
 
-ul{
+ul {
   font-size: 14px;
   list-style: none;
   display: flex;
 }
 
-li{
+li {
   padding-inline: 16px;
 }
 
-a{
+a {
   color: #000;
   text-decoration: none;
 }
 
 /* content */
 
-main{
+main {
   font-size: 14px;
   min-height: 94vh;
 }
 
-#contact{
+#contact {
   height: 94vh;
 }
 
-#home, #about-me, #experience, #projects{
+#home, #about-me, #experience, #projects {
   height: 100vh;
 }
 
-#home, #experience, #contact{
+#home, #experience, #contact {
   background-color: #fff;
 }
 
-#about-me, #projects{
+#about-me, #projects {
   background-color: #f9f9f9;
 }
 
-#home{
+#home {
   justify-content: space-between;
 }
 
-#about-me, #experience, #projects, #contact{
+#about-me, #experience, #projects, #contact {
   justify-content: center;
 }
 
-section{
+section {
   display: flex;
   align-items: center;
   padding-inline: 64px;
 }
 
-.title-area{
+.title-area {
   text-align: center;
   margin-bottom: 32px;
 }
 
-.content{
+.content {
   display: flex;
   justify-content: space-between;
 }
 
-.title-area, .content{
+.title-area, .content {
   width: 632px;
 }
 
-.image-area{
+.image-area {
   width: 300px;
   height: 300px;
 }
 
-.image-area img{
+.image-area img {
   width: 100%;
   height: 100%;
 }
 
-.text-area{
+.text-area {
   width: 300px;
   height: 300px;
 }
 
-h1{
+h1 {
   font-size: 48px;
 }
 
-h2{
+h2 {
   font-size: 24px;
 }
 
-h3{
+h3 {
   font-size: 16px;
   font-weight: normal;
 }
 
-h3, main p{
+h3, main p {
   opacity: 70%;
 }
 
-h1, #home h2, #home h3, main p, input, textarea, button{
+h1, #home h2, #home h3, main p, input, textarea, button {
   margin-bottom: 3%;
 }
 
-input, textarea{
+input, textarea {
   background-color: #f9f9f9;
   border: none;
   padding-block: 2%;
@@ -141,12 +141,12 @@ input, textarea{
   width: 92%;
 }
 
-textarea{
+textarea {
   max-height: 120px;
   resize: none;
 }
 
-button{
+button {
   background-color: #000;
   border: none;
   font-weight: bold;
@@ -156,22 +156,22 @@ button{
   color: #fff;
 }
 
-button a{
+button a {
   color: #fff;
 }
 
-img{
+img {
   width: 100%;
   height: auto;
 }
 
-/*.title-area, .content, h1, h2, h3, p, input, textarea, button{
+/*.title-area, .content, h1, h2, h3, p, input, textarea, button {
   border: 1px solid #000;
 }*/
 
 /* footer */
 
-footer{
+footer {
   font-size: 14px;
   background-color: #fff;
   display: flex;
