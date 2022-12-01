@@ -150,8 +150,8 @@ textarea {
   background-color: #000;
   border: none;
   font-weight: bold;
-  padding-block: 3.5%;
-  padding-inline: 7%;
+  padding-block: 0.85em;
+  padding-inline: 1.70em;
   border-radius: 2em;
   color: #fff;
 }
@@ -164,8 +164,8 @@ textarea {
   background-color: transparent;
   border: 1px solid #000;
   font-weight: bold;
-  padding-block: 3.5%;
-  padding-inline: 7%;
+  padding-block: 0.85em;
+  padding-inline: 1.70em;
   border-radius: 2em;
   color: #000;
 }
