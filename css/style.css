@@ -146,7 +146,7 @@ textarea {
   resize: none;
 }
 
-button {
+.filled-button {
   background-color: #000;
   border: none;
   font-weight: bold;
@@ -156,8 +156,22 @@ button {
   color: #fff;
 }
 
-button a {
+.filled-button a {
   color: #fff;
+}
+
+.unfilled-button {
+  background-color: transparent;
+  border: 1px solid #000;
+  font-weight: bold;
+  padding-block: 3.5%;
+  padding-inline: 7%;
+  border-radius: 2em;
+  color: #000;
+}
+
+.unfilled-button a {
+  color: #000;
 }
 
 img {
