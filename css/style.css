@@ -79,6 +79,7 @@ section {
   display: flex;
   align-items: center;
   padding-inline: 64px;
+  width: 100%;
 }
 
 .title-area {
