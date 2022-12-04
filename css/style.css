@@ -67,23 +67,26 @@ main {
   background-color: #f9f9f9;
 }
 
-#home {
-  justify-content: space-between;
-}
-
-#about-me, #experience, #projects, #contact {
-  justify-content: center;
-}
-
 section {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding-inline: 64px;
-  width: 100%;
 }
 
 #home .container {
-  width: 400px;
+  display: flex;
+  width: 100%;
+}
+
+#home .container .text-area {
+  width: 45%;
+  height: 100%;
+}
+
+#home .container .image-area {
+  width: 55%;
+  height: 100%;
 }
 
 .title-area {
