@@ -76,16 +76,17 @@ section {
 
 #home .container {
   display: flex;
+  justify-content: space-between;
   width: 100%;
 }
 
 #home .container .text-area {
-  width: 45%;
+  width: calc(45% - 32px);
   height: 100%;
 }
 
 #home .container .image-area {
-  width: 55%;
+  width: calc(55% - 32px);
   height: 100%;
 }
 
