@@ -94,12 +94,12 @@ section {
   margin-bottom: 32px;
 }
 
-.content {
+.content-area {
   display: flex;
   justify-content: space-between;
 }
 
-.title-area, .content {
+.title-area, .content-area {
   width: 632px;
 }
 
