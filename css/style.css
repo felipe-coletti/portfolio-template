@@ -119,6 +119,10 @@ section {
   height: 300px;
 }
 
+.buttons-area {
+  display: flex;
+}
+
 h1 {
   font-size: 30px;
 }
