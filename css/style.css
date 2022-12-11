@@ -30,7 +30,7 @@ header {
 }
 
 ul {
-  font-size: 16px;
+  font-size: 14px;
   list-style: none;
   display: flex;
 }
@@ -47,7 +47,7 @@ a {
 /* content */
 
 main {
-  font-size: 16px;
+  font-size: 14px;
   min-height: 94vh;
 }
 
@@ -137,11 +137,11 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
 }
 
-h3, main p {
+main p {
   opacity: 70%;
 }
 
