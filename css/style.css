@@ -22,7 +22,7 @@ header {
   z-index: 1;
 }
 
-.list-title {
+#list-title {
   font-size: 26px;
   letter-spacing: 3px;
   text-transform: uppercase;
