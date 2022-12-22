@@ -258,6 +258,15 @@ footer {
   section {
     padding-inline: 24px;
   }
+  
+  #home .container .text-area {
+    width: 100%;
+    margin-right: 0px;
+  }
+  
+  #home .container .image-area, #contact .container .image-area {
+    display: none;
+  }
 
   .title-area {
     margin-bottom: 2vh;
@@ -273,10 +282,6 @@ footer {
 
   #about-me .image-area {
     margin-right: 0px;
-  }
-
-  #contact .image-area {
-    display: none;
   }
 
   .image-area {
