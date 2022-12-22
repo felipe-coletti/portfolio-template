@@ -206,3 +206,49 @@ footer {
   align-items: center;
   height: 6vh;
 }
+
+/* responsiveness */
+
+@media screen and (max-width: 512px) {
+  header {
+    padding-inline: 8px;
+  }
+
+  section {
+    padding-inline: 24px;
+  }
+
+  .title-area {
+    margin-bottom: 2vh;
+  }
+
+  #about-me .container .content-area {
+    display: block;
+  }
+
+  .title-area, .content-area {
+    width: 100%;
+  }
+
+  .image-area {
+    margin-bottom: 2vh;
+  }
+
+  .text-area {
+    width: 100%;
+    height: auto;
+  }
+
+  .buttons-area {
+    display: block;
+  }
+  
+  .buttons-area .unfilled-button {
+    margin-right: 0vh;
+    margin-bottom: 2vh;
+  }
+
+  .unfilled-button, .filled-button {
+    width: 100%;
+  }
+}
