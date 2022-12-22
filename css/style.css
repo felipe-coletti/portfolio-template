@@ -236,9 +236,14 @@ footer {
     top: 8vh;
     left: 0vw;
     background-color: #fff;
+    display: none;
     flex-direction: column;
     align-items: center;
     width: 100vw;
+  }
+
+  .open {
+    display: flex;
   }
 
   li {
