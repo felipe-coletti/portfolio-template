@@ -29,6 +29,19 @@ header {
   padding-inline: 16px;
 }
 
+#hamburguer-menu {
+  display: none;
+  cursor: pointer;
+  padding-inline: 16px;
+}
+
+#hamburguer-menu div {
+  background-color: #000;
+  width: 24px;
+  height: 1px;
+  margin-block: 6px;
+}
+
 ul {
   font-size: 14px;
   list-style: none;
@@ -212,6 +225,27 @@ footer {
 }
 
 /* responsiveness */
+
+@media screen and (max-width: 880px) {
+  #hamburguer-menu {
+    display: block;
+  }
+
+  ul {
+    position: absolute;
+    top: 8vh;
+    left: 0vw;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+
+  li {
+    padding-block: 16px;
+    padding-inline: 0px;
+  }
+}
 
 @media screen and (max-width: 640px) {
   header {
