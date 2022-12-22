@@ -97,11 +97,12 @@ section {
 #home .container .text-area {
   width: 45%;
   height: 100%;
+  margin-right: 64px;
 }
 
 #home .container .image-area {
-  width: 55%;
-  height: calc(55 / 100 * (100vw - 128px) - 32px);
+  width: 400px;
+  height: 400px;
 }
 
 .title-area {
@@ -114,11 +115,7 @@ section {
   justify-content: space-between;
 }
 
-#home .text-area {
-  margin-right: 64px;
-}
-
-#about-me .image-area, #projects .image-area, #experience .image-area, #contact .image-area {
+#about-me .container .image-area, #projects .container .image-area, #experience .container .image-area, #contact .container .image-area {
   margin-right: 32px;
 }
 
