@@ -82,12 +82,12 @@ section {
 }
 
 #home .container .text-area {
-  width: calc(45% - 32px);
+  width: 45%;
   height: 100%;
 }
 
 #home .container .image-area {
-  width: calc(55% - 32px);
+  width: 55%;
   height: calc(55 / 100 * (100vw - 128px) - 32px);
 }
 
@@ -101,8 +101,12 @@ section {
   justify-content: space-between;
 }
 
-.title-area, .content-area {
-  width: 632px;
+#home .text-area {
+  margin-right: 64px;
+}
+
+#about-me .image-area, #projects .image-area, #experience .image-area, #contact .image-area {
+  margin-right: 32px;
 }
 
 .image-area {
@@ -209,9 +213,10 @@ footer {
 
 /* responsiveness */
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 640px) {
   header {
     padding-inline: 8px;
+    width: calc(100% - 16px);
   }
 
   section {
@@ -228,6 +233,14 @@ footer {
 
   .title-area, .content-area {
     width: 100%;
+  }
+
+  #about-me .image-area {
+    margin-right: 0px;
+  }
+
+  #contact .image-area {
+    display: none;
   }
 
   .image-area {
