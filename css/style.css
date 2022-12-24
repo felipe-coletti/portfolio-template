@@ -237,7 +237,6 @@ footer {
     top: 8vh;
     left: 0vw;
     background-color: #fff;
-    display: none;
     flex-direction: column;
     width: 100%;
   }
@@ -245,6 +244,10 @@ footer {
   li {
     padding-block: 16px;
     padding-inline: 64px;
+  }
+
+  .closed {
+    display: none;
   }
 
   .open {
