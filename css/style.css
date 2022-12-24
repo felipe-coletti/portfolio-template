@@ -250,7 +250,7 @@ footer {
     display: none;
   }
 
-  .open {
+  .opened {
     display: flex;
   }
 }
