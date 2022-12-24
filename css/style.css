@@ -235,17 +235,17 @@ footer {
     background-color: #fff;
     display: none;
     flex-direction: column;
-    align-items: center;
+    padding-inline: 64px;
     width: 100vw;
-  }
-
-  .open {
-    display: flex;
   }
 
   li {
     padding-block: 16px;
     padding-inline: 0px;
+  }
+
+  .open {
+    display: flex;
   }
 }
 
@@ -253,6 +253,10 @@ footer {
   header {
     padding-inline: 8px;
     width: calc(100% - 16px);
+  }
+
+  ul {
+    padding-inline: 24px;
   }
 
   section {
