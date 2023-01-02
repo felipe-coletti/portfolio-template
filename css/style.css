@@ -33,6 +33,8 @@ header {
   display: none;
   cursor: pointer;
   padding-inline: 16px;
+  width: 8vh;
+  height: 8vh;
 }
 
 #hamburguer-menu div {
@@ -65,11 +67,11 @@ main {
 }
 
 #home, #about-me, #experience, #projects {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #contact {
-  height: 94vh;
+  min-height: 94vh;
 }
 
 #home, #experience, #contact {
@@ -263,6 +265,7 @@ footer {
 
   li {
     padding-inline: 24px;
+    width: 100%;
   }
 
   section {
