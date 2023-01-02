@@ -248,7 +248,10 @@ footer {
   li {
     padding-block: 16px;
     padding-inline: 64px;
-    width: calc(100% - 128px);
+  }
+
+  li a {
+    width: 100%;
   }
 
   .closed {
@@ -268,7 +271,10 @@ footer {
 
   li {
     padding-inline: 24px;
-    width: calc(100% - 48px);
+  }
+
+  li a {
+    width: 100%;
   }
 
   section {
