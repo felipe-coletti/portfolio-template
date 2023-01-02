@@ -31,12 +31,8 @@ header {
 
 #hamburguer-menu {
   display: none;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
-  /*padding-inline: 16px;*/
-  width: 8vh;
-  height: 8vh;
+  padding-inline: 16px;
 }
 
 #hamburguer-menu div {
@@ -250,10 +246,6 @@ footer {
     padding-inline: 64px;
   }
 
-  li a {
-    width: 100%;
-  }
-
   .closed {
     display: none;
   }
@@ -271,10 +263,6 @@ footer {
 
   li {
     padding-inline: 24px;
-  }
-
-  li a {
-    width: 100%;
   }
 
   section {
