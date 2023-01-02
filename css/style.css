@@ -31,8 +31,10 @@ header {
 
 #hamburguer-menu {
   display: none;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
-  padding-inline: 16px;
+  /*padding-inline: 16px;*/
   width: 8vh;
   height: 8vh;
 }
