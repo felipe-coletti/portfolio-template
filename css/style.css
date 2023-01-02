@@ -248,6 +248,7 @@ footer {
   li {
     padding-block: 16px;
     padding-inline: 64px;
+    width: calc(100% - 128px);
   }
 
   .closed {
@@ -267,7 +268,7 @@ footer {
 
   li {
     padding-inline: 24px;
-    width: 100%;
+    width: calc(100% - 48px);
   }
 
   section {
