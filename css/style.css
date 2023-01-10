@@ -311,10 +311,6 @@ footer {
     margin-right: 0vh;
     margin-bottom: 2vh;
   }
-  
-  .unfilled-button {
-    border: 2px solid #000;
-  }
 
   .unfilled-button, .filled-button {
     width: 100%;
