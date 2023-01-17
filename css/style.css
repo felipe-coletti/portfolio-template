@@ -1,6 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
@@ -16,9 +17,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 48px;
-  width: calc(100% - 96px);
-  height: 8vh;
+  padding-inline: 64px;
+  width: 100%;
+  height: 3.5rem;
   z-index: 1;
 }
 
@@ -26,13 +27,11 @@ header {
   font-size: 26px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  padding-inline: 16px;
 }
 
 #hamburguer-menu {
   display: none;
   cursor: pointer;
-  padding-inline: 16px;
 }
 
 #hamburguer-menu div {
@@ -46,10 +45,7 @@ ul {
   font-size: 14px;
   list-style: none;
   display: flex;
-}
-
-li {
-  padding-inline: 16px;
+  gap: 16px;
 }
 
 a {
@@ -169,8 +165,8 @@ input, textarea {
   padding-block: 2%;
   padding-inline: 4%;
   text-align: top;
-  border-radius: 1.25em;
-  width: 92%;
+  border-radius: 1.25rem;
+  width: 100%;
 }
 
 textarea {
@@ -182,9 +178,9 @@ textarea {
   background-color: #000;
   border: none;
   font-weight: bold;
-  padding-block: 0.85em;
-  padding-inline: 1.70em;
-  border-radius: 2em;
+  padding-block: 0.85rem;
+  padding-inline: 1.70rem;
+  border-radius: 2rem;
   color: #fff;
 }
 
@@ -196,9 +192,9 @@ textarea {
   background-color: transparent;
   border: 1px solid #000;
   font-weight: bold;
-  padding-block: 0.85em;
-  padding-inline: 1.70em;
-  border-radius: 2em;
+  padding-block: 0.85rem;
+  padding-inline: 1.70rem;
+  border-radius: 2rem;
   color: #000;
 }
 
@@ -234,11 +230,12 @@ footer {
 
   ul {
     position: absolute;
-    top: 8vh;
-    left: 0vw;
+    top: 3.5rem;
+    left: 0;
     background-color: #fff;
     flex-direction: column;
     width: 100%;
+    gap: 0px;
   }
 
   li {
@@ -257,8 +254,8 @@ footer {
 
 @media screen and (max-width: 640px) {
   header {
-    padding-inline: 8px;
-    width: calc(100% - 16px);
+    padding-inline: 24px;
+    width: 100%;
   }
 
   li {
