@@ -57,7 +57,7 @@ a {
 
 main {
   font-size: 14px;
-  min-height: 94vh;
+  min-height: calc(100vh - 3rem);
 }
 
 #home, #about-me, #experience, #projects {
@@ -65,7 +65,7 @@ main {
 }
 
 #contact {
-  min-height: 94vh;
+  min-height: calc(100vh - 3rem);
 }
 
 #home, #experience, #contact {
@@ -218,7 +218,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 6vh;
+  height: 3rem;
 }
 
 /* responsiveness */
