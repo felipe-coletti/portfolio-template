@@ -87,7 +87,6 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 
 #home .container .text-area {
@@ -99,6 +98,10 @@ section {
 #home .container .image-area {
   width: 400px;
   height: 400px;
+}
+
+.container {
+  width: 100%;
 }
 
 .title-area {
