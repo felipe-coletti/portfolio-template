@@ -108,7 +108,8 @@ section {
 
 .content-area {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 #about-me .container .image-area, #projects .container .image-area, #experience .container .image-area, #contact .container .image-area {
@@ -280,7 +281,7 @@ footer {
   }
 
   #about-me .container .content-area {
-    display: block;
+    flex-direction: column;
   }
 
   .title-area, .content-area {
