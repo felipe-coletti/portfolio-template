@@ -45,7 +45,7 @@ ul {
   font-size: 14px;
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 a {
@@ -147,11 +147,11 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
 }
 
@@ -160,7 +160,7 @@ main p {
 }
 
 h1, #home h2, #home h3, #home p, input, textarea {
-  margin-bottom: 2vh;
+  margin-bottom: 0.75rem;
 }
 
 input, textarea {
@@ -280,7 +280,7 @@ footer {
   }
 
   .title-area {
-    margin-bottom: 2vh;
+    margin-bottom: 0.75rem;
   }
 
   #about-me .container .content-area {
@@ -291,12 +291,12 @@ footer {
     width: 100%;
   }
 
-  #about-me .image-area {
+  #about-me .container .image-area {
     margin-right: 0px;
   }
 
   .image-area {
-    margin-bottom: 2vh;
+    margin-bottom: 0.75rem;
   }
 
   .text-area {
