@@ -112,6 +112,7 @@ section {
 .content-area {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #about-me .container .image-area, #projects .container .image-area, #experience .container .image-area, #contact .container .image-area {
