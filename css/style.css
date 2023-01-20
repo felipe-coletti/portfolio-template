@@ -164,8 +164,8 @@ h1, #home h2, #home h3, #home p, input, textarea {
 input, textarea {
   background-color: #f9f9f9;
   border: none;
-  padding-block: 2%;
-  padding-inline: 4%;
+  padding-block: 0.75rem;
+  padding-inline: 1.25rem;
   text-align: top;
   border-radius: 1.25rem;
   width: 100%;
