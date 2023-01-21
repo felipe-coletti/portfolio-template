@@ -24,8 +24,8 @@ header {
 }
 
 #list-title {
-  font-size: 26px;
-  letter-spacing: 3px;
+  font-size: 1.625rem;
+  letter-spacing: 0.1875rem;
   text-transform: uppercase;
 }
 
@@ -37,7 +37,7 @@ header {
 #hamburguer-menu div {
   background-color: #000;
   width: 1.5rem;
-  height: 2px;
+  height: 0.125rem;
   margin-block: 6px;
 }
 
