@@ -96,8 +96,8 @@ section {
 }
 
 #home .container .image-area {
-  width: 400px;
-  height: 400px;
+  width: 25rem;
+  height: 25rem;
 }
 
 .container {
@@ -142,7 +142,7 @@ section {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 h2 {
