@@ -181,9 +181,9 @@ textarea {
   background-color: #000;
   border: none;
   font-weight: bold;
-  padding-block: 0.85rem;
-  padding-inline: 1.70rem;
-  border-radius: 2rem;
+  padding-block: 0.75rem;
+  padding-inline: 1.25rem;
+  border-radius: 1.25rem;
   color: #fff;
 }
 
