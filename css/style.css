@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
 /* navegation */
