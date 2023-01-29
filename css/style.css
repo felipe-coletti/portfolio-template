@@ -278,6 +278,7 @@ footer {
   }
 
   section {
+    padding-block: 5rem;
     padding-inline: 1.5rem;
   }
   
