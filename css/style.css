@@ -91,6 +91,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-block: 7.5rem;
   padding-inline: 4rem;
 }
 
