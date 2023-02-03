@@ -3,7 +3,6 @@
   --secondary-background-color: #f9f9f9;
   --text-color: #000;
   --button-color: #000;
-  --button-text-color: #fff;
 }
 
 * {
@@ -193,7 +192,7 @@ textarea {
   padding-block: 0.75rem;
   padding-inline: 1.25rem;
   border-radius: 1.25rem;
-  color: var(--button-text-color);
+  color: var(--primary-background-color);
 }
 
 .unfilled-button {
