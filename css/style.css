@@ -196,10 +196,6 @@ textarea {
   color: var(--button-text-color);
 }
 
-.filled-button a {
-  color: var(--button-text-color);
-}
-
 .unfilled-button {
   background-color: transparent;
   border: 1px solid var(--button-color);
@@ -207,10 +203,6 @@ textarea {
   padding-block: 0.75rem;
   padding-inline: 1.25rem;
   border-radius: 1.25rem;
-  color: var(--button-color);
-}
-
-.unfilled-button a {
   color: var(--button-color);
 }
 
