@@ -1,8 +1,8 @@
 :root {
   --primary-background-color: #fff;
   --secondary-background-color: #f9f9f9;
-  --default-text-color: #000;
-  --default-button-color: #000;
+  --text-color: #000;
+  --button-color: #000;
 }
 
 * {
