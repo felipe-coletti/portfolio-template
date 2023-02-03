@@ -3,6 +3,7 @@
   --secondary-background-color: #f9f9f9;
   --text-color: #000;
   --button-color: #000;
+  --button-text-color: #fff;
 }
 
 * {
@@ -192,11 +193,11 @@ textarea {
   padding-block: 0.75rem;
   padding-inline: 1.25rem;
   border-radius: 1.25rem;
-  color: #fff;
+  color: var(--button-text-color);
 }
 
 .filled-button a {
-  color: #fff;
+  color: var(--button-text-color);
 }
 
 .unfilled-button {
@@ -206,11 +207,11 @@ textarea {
   padding-block: 0.75rem;
   padding-inline: 1.25rem;
   border-radius: 1.25rem;
-  color: #000;
+  color: var(--button-color);
 }
 
 .unfilled-button a {
-  color: #000;
+  color: var(--button-color);
 }
 
 button {
