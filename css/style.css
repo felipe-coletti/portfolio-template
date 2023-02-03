@@ -312,10 +312,6 @@ footer {
     width: 100%;
     height: auto;
   }
-
-  .buttons-area {
-    display: block;
-  }
   
   .buttons-area {
     flex-direction: column;
