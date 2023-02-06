@@ -290,7 +290,7 @@ footer {
     width: 100%;
   }
 
-  #about-me .container {
+  #about-me .container .content-area{
     gap: 0.75rem;
   }
 
