@@ -286,7 +286,7 @@ footer {
     flex-direction: column;
   }
 
-  .title-area, .content-area {
+  .title-area, .content-area, .unfilled-button, .filled-button {
     width: 100%;
   }
 
@@ -303,7 +303,4 @@ footer {
     flex-direction: column;
   }
 
-  .unfilled-button, .filled-button {
-    width: 100%;
-  }
 }
