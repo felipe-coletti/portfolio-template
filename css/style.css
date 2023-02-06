@@ -260,7 +260,7 @@ footer {
     padding-inline: 1.5rem;
   }
 
-  header {
+  header, .title-area, .content-area, .text-area, .unfilled-button, .filled-button {
     width: 100%;
   }
 
@@ -282,9 +282,5 @@ footer {
 
   #about-me .container .content-area{
     gap: 0.75rem;
-  }
-
-  .title-area, .content-area, .text-area, .unfilled-button, .filled-button {
-    width: 100%;
   }
 }
