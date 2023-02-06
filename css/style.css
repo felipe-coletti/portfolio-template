@@ -126,7 +126,7 @@ section {
   align-items: center;
 }
 
-#about-me .container, #projects .container, #experience .container, #contact .container {
+#about-me .content-area, #projects .content-area, #experience .content-area, #contact .content-area {
   gap: 4rem;
 }
 
