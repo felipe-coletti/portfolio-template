@@ -256,18 +256,16 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
-  header {
+  header, li, section {
     padding-inline: 1.5rem;
-    width: 100%;
   }
 
-  li {
-    padding-inline: 1.5rem;
+  header {
+    width: 100%;
   }
 
   section {
     padding-block: 5rem;
-    padding-inline: 1.5rem;
   }
   
   #home .container .image-area, #contact .container .image-area {
@@ -288,9 +286,5 @@ footer {
 
   .title-area, .content-area, .text-area, .unfilled-button, .filled-button {
     width: 100%;
-  }
-
-  .text-area {
-    height: auto;
   }
 }
