@@ -270,10 +270,6 @@ footer {
     padding-inline: 1.5rem;
   }
   
-  #home .container .text-area {
-    width: 100%;
-  }
-  
   #home .container .image-area, #contact .container .image-area {
     display: none;
   }
@@ -282,25 +278,19 @@ footer {
     margin-bottom: 1.5rem;
   }
 
-  #about-me .container .content-area {
+  #about-me .container .content-area, .buttons-area {
     flex-direction: column;
-  }
-
-  .title-area, .content-area, .unfilled-button, .filled-button {
-    width: 100%;
   }
 
   #about-me .container .content-area{
     gap: 0.75rem;
   }
 
-  .text-area {
+  .title-area, .content-area, .text-area, .unfilled-button, .filled-button {
     width: 100%;
-    height: auto;
-  }
-  
-  .buttons-area {
-    flex-direction: column;
   }
 
+  .text-area {
+    height: auto;
+  }
 }
