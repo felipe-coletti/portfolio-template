@@ -216,7 +216,7 @@ button {
 /* footer */
 
 footer {
-  font-size: 14px;
+  font-size: 0.875rem;
   background-color: var(--primary-background-color);
   display: flex;
   justify-content: center;
