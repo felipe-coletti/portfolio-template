@@ -116,6 +116,7 @@ section {
 
 .content-area {
   display: flex;
+  width: 100%;
 }
 
 #about-me .container .content-area, #projects .container .content-area, #experience .container .content-area, #contact .container .content-area {
