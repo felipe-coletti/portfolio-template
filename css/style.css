@@ -93,12 +93,12 @@ section {
 
 #home .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 4rem;
 }
 
 #home .container .text-area {
-  justify-content: center;
-  align-items: center;
   width: 100%;
 }
 
