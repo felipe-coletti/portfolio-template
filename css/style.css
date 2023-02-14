@@ -116,8 +116,6 @@ section {
 
 .content-area {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #about-me .container .content-area, #projects .container .content-area, #experience .container .content-area, #contact .container .content-area {
