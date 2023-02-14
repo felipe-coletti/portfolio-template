@@ -93,12 +93,11 @@ section {
 
 #home .container {
   display: flex;
-  align-items: center;
   gap: 4rem;
 }
 
 #home .container .text-area {
-  width: calc(100% - 29rem);
+  width: 100%;
 }
 
 #home .container .image {
