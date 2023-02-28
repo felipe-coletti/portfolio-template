@@ -107,6 +107,10 @@ section {
   height: 25rem;
 }
 
+#about-me .container .image {
+  border-radius: 50%;
+}
+
 .container {
   width: 100%;
 }
