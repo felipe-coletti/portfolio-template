@@ -264,6 +264,11 @@ footer {
     display: none;
   }
 
+  #about-me .container .image {
+    width: 8rem;
+    height: 8rem;
+  }
+
   .title-area {
     margin-bottom: 1.5rem;
   }
