@@ -109,6 +109,8 @@ section {
 
 #about-me .container .image {
   border-radius: 50%;
+  width: 14.0625rem;
+  height: 14.0625rem;
 }
 
 .container {
