@@ -98,10 +98,6 @@ section {
   gap: 4rem;
 }
 
-#home .container .text-area {
-  width: 100%;
-}
-
 #home .container .image {
   width: 25rem;
   height: 25rem;
