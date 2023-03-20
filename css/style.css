@@ -153,7 +153,7 @@ main p {
   opacity: 70%;
 }
 
-h1, #home h2, #home h3, #home p, input, textarea {
+h1, #home h2, input, textarea {
   margin-bottom: 0.75rem;
 }
 
