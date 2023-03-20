@@ -95,11 +95,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-}
-
-#home .container .image {
   text-align: center;
+  gap: 4rem;
 }
 
 #about-me .container .image {
@@ -126,11 +123,6 @@ section {
 
 #about-me .container .content-area, #projects .container .content-area, #experience .container .content-area, #contact .container .content-area {
   gap: 4rem;
-}
-
-.image {
-  width: 18.75rem;
-  height: 18.75rem;
 }
 
 .text-area {
