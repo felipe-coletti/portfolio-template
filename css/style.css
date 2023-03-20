@@ -177,6 +177,16 @@ textarea {
   resize: none;
 }
 
+.rounded-filled-button {
+  background-color: var(--button-color);
+  border: none;
+  font-weight: bold;
+  padding-block: 0.75rem;
+  padding-inline: 0.75rem;
+  border-radius: 50%;
+  color: var(--primary-background-color);
+}
+
 .filled-button {
   background-color: var(--button-color);
   border: none;
