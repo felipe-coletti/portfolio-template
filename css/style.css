@@ -263,10 +263,6 @@ footer {
   section {
     padding-block: 5rem;
   }
-  
-  #home .container .image, #contact .container .image {
-    display: none;
-  }
 
   #about-me .container .image {
     width: 8rem;
