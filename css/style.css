@@ -160,7 +160,7 @@ h1, #home h2, input, textarea {
 input, textarea {
   background-color: var(--secondary-background-color);
   border: none;
-  padding-block: 0.75rem;
+  padding-block: 0.625rem;
   padding-inline: 1.25rem;
   text-align: top;
   border-radius: 1.25rem;
@@ -184,7 +184,7 @@ textarea {
   background-color: var(--button-color);
   border: none;
   font-weight: bold;
-  padding-block: 0.75rem;
+  padding-block: 0.625rem;
   padding-inline: 1.25rem;
   border-radius: 1.25rem;
   color: var(--primary-background-color);
@@ -194,7 +194,7 @@ textarea {
   background-color: transparent;
   border: 1px solid var(--button-color);
   font-weight: bold;
-  padding-block: 0.75rem;
+  padding-block: 0.625rem;
   padding-inline: 1.25rem;
   border-radius: 1.25rem;
   color: var(--button-color);
