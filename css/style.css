@@ -99,8 +99,7 @@ section {
 }
 
 #home .container .image {
-  width: 25rem;
-  height: 25rem;
+  text-align: center;
 }
 
 #about-me .container .image {
