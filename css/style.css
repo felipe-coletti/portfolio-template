@@ -114,7 +114,7 @@ section {
 
 .content-area {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
@@ -123,7 +123,7 @@ section {
   gap: 4rem;
 }
 
-#about-me .text-area, #contact .text-area {
+#about-me .text-area, #contact .left-text-area , #contact .right-text-area {
   width: 18.75rem;
 }
 
