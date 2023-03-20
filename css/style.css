@@ -136,6 +136,11 @@ section {
   gap: 0.75rem;
 }
 
+.buttons-area .image {
+  width: 1rem;
+  height: 1rem;
+}
+
 h1 {
   font-size: 1.875rem;
 }
