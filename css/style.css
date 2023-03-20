@@ -92,11 +92,9 @@ section {
 }
 
 #home .container . text-area {
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 4rem;
 }
 
 #about-me .container .image {
@@ -131,6 +129,8 @@ section {
 
 .buttons-area {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 0.75rem;
 }
 
