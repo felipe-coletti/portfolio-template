@@ -91,7 +91,7 @@ section {
   padding-inline: 4rem;
 }
 
-#home .container {
+#home .container . text-area {
   display: flex;
   justify-content: center;
   align-items: center;
