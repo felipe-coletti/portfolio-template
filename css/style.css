@@ -97,6 +97,11 @@ section {
   text-align: center;
 }
 
+.buttons-area {
+  display: flex;
+  gap: 0.75rem;
+}
+
 #about-me .container .image {
   border-radius: 50%;
   width: 14.0625rem;
@@ -112,6 +117,10 @@ section {
   margin-bottom: 4rem;
 }
 
+#about-me .container .content-area, #projects .container .content-area, #contact .container .content-area {
+  gap: 4rem;
+}
+
 .content-area {
   display: flex;
   justify-content: center;
@@ -119,21 +128,8 @@ section {
   width: 100%;
 }
 
-#about-me .container .content-area, #projects .container .content-area, #experience .container .content-area, #contact .container .content-area {
-  gap: 4rem;
-}
-
 #about-me .text-area, #contact .left-text-area , #contact .right-text-area {
   width: 18.75rem;
-}
-
-.card {
-  background-color: var(--primary-background-color);
-}
-
-.buttons-area {
-  display: flex;
-  gap: 0.75rem;
 }
 
 h1 {
@@ -157,6 +153,19 @@ h1, #home h2, input, textarea {
   margin-bottom: 0.75rem;
 }
 
+.rounded-filled-button {
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 50%;
+  color: var(--primary-background-color);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.card {
+  background-color: var(--primary-background-color);
+}
+
 input, textarea {
   background-color: var(--secondary-background-color);
   border: none;
@@ -169,15 +178,6 @@ input, textarea {
 
 textarea {
   resize: none;
-}
-
-.rounded-filled-button {
-  background-color: var(--button-color);
-  border: none;
-  border-radius: 50%;
-  color: var(--primary-background-color);
-  width: 2.5rem;
-  height: 2.5rem;
 }
 
 .filled-button {
