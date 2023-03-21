@@ -154,7 +154,7 @@ main p {
   opacity: 70%;
 }
 
-h1, #home h2, input, textarea {
+h1, #home h2, #about-me h2, input, textarea {
   margin-bottom: 0.75rem;
 }
 
