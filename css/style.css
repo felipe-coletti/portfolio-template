@@ -122,7 +122,7 @@ section {
   margin-bottom: 4rem;
 }
 
-#about-me .container .content-area, #projects .container .content-area, #contact .container .content-area {
+#about-me .container, #projects .container .content-area, #contact .container .content-area {
   gap: 4rem;
 }
 
@@ -252,7 +252,7 @@ footer {
     padding-inline: 1.5rem;
   }
 
-  header, .title-area, .content-area, .text-area, .unfilled-button, .filled-button {
+  header, .title-area, #about-me .container, .content-area, .text-area, .unfilled-button, .filled-button {
     width: 100%;
   }
 
@@ -260,17 +260,21 @@ footer {
     padding-block: 5rem;
   }
 
-  #about-me .container .image {
-    width: 8rem;
-    height: 8rem;
-  }
-
   .title-area {
     margin-bottom: 1.5rem;
   }
 
-  #about-me .container .content-area {
+  #about-me .container {
     flex-direction: column;
     gap: 0.75rem;
+  }
+  
+  #about-me .container .image {
+    width: 8rem;
+    height: 8rem;
+  }
+  
+  #about-me .container .text-area {
+    text-align: center;
   }
 }
