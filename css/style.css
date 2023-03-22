@@ -107,6 +107,11 @@ section {
   height: 100%;
 }
 
+#about-me .container {
+  justify-content: center;
+  align-items: center;
+}
+
 #about-me .container .image {
   border-radius: 50%;
   width: 14.0625rem;
@@ -114,8 +119,6 @@ section {
 }
 
 .container {
-  justify-content: center;
-  align-items: center;
   width: 100%;
 }
 
