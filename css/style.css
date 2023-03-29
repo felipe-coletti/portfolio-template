@@ -98,10 +98,17 @@ section {
   gap: 0.75rem;
 }
 
-.icon {
+.rounded-filled-button {
+  font-size: 2rem;
+  background-color: var(--button-color);
   display: flex;
-  width: 75%;
-  height: 75%;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  color: var(--primary-background-color);
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 #about-me .container {
@@ -155,18 +162,6 @@ main p {
 
 h1, #home h2, #about-me h2, input, textarea {
   margin-bottom: 0.75rem;
-}
-
-.rounded-filled-button {
-  background-color: var(--button-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  border-radius: 50%;
-  color: var(--primary-background-color);
-  width: 2.5rem;
-  height: 2.5rem;
 }
 
 .card {
