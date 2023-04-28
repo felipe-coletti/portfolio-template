@@ -87,8 +87,24 @@ section {
   padding-inline: 4rem;
 }
 
-#home .container .text-area, .buttons-area {
+#home .container .image-area, #home .container .text-area, #about-me .container .text-area, .buttons-area {
   text-align: center;
+}
+
+#home .container .image {
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+}
+
+#about-me .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
 }
 
 .buttons-area {
@@ -108,22 +124,6 @@ section {
   color: var(--primary-background-color);
   width: 2.5rem;
   height: 2.5rem;
-}
-
-#about-me .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#about-me .container .image {
-  border-radius: 50%;
-  width: 14.0625rem;
-  height: 14.0625rem;
-}
-
-.container {
-  width: 100%;
 }
 
 .title-area {
@@ -159,7 +159,7 @@ main p {
   opacity: 70%;
 }
 
-h1, #home h2, #about-me h2, input, textarea {
+.image, h1, #home h2, #about-me h2, input, textarea {
   margin-bottom: 0.75rem;
 }
 
@@ -263,11 +263,6 @@ footer {
   #about-me .container {
     flex-direction: column;
     gap: 0.75rem;
-  }
-  
-  #about-me .container .image {
-    width: 8rem;
-    height: 8rem;
   }
   
   #about-me .container .text-area {
