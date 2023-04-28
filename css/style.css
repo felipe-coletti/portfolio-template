@@ -99,7 +99,6 @@ section {
 }
 
 .rounded-filled-button {
-  font-size: 2rem;
   background-color: var(--button-color);
   display: flex;
   justify-content: center;
