@@ -87,7 +87,7 @@ section {
   padding-inline: 4rem;
 }
 
-#home .container .image-area, #home .container .text-area, #about-me .container .text-area, .buttons-area {
+#home .container .image-area, #home .container .text-area, .buttons-area {
   text-align: center;
 }
 
@@ -142,7 +142,11 @@ section {
   width: 100%;
 }
 
-#about-me .text-area, #contact .left-text-area , #contact .right-text-area {
+#about-me .text-area {
+  width: 32rem;
+}
+
+#contact .left-text-area , #contact .right-text-area {
   width: 18.75rem;
 }
 
