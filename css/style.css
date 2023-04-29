@@ -97,12 +97,6 @@ section {
   height: 8rem;
 }
 
-#about-me .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .container {
   width: 100%;
 }
