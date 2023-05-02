@@ -140,6 +140,18 @@ section {
   width: 32rem;
 }
 
+#projects .container {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, 14rem);
+}
+
+.card {
+  background-color: var(--primary-background-color);
+  padding: 1rem;
+  height: 16rem;
+}
+
 #contact .left-text-area , #contact .right-text-area {
   width: 18.75rem;
 }
@@ -159,18 +171,6 @@ main p {
 
 .image, h1, #home h2, #about-me h2, input, textarea {
   margin-bottom: 0.75rem;
-}
-
-#projects .container {
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, 14rem);
-}
-
-.card {
-  background-color: var(--primary-background-color);
-  padding: 1rem;
-  height: 16rem;
 }
 
 input, textarea {
