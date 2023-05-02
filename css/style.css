@@ -225,7 +225,7 @@ footer {
     padding-inline: 4rem;
   }
   
-  a {
+  li a {
     display: flex;
     width: 100%;
   }
