@@ -125,6 +125,16 @@ section {
   margin-bottom: 4rem;
 }
 
+#projects .container .content-area {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, 14rem);
+}
+
+#contact .container .content-area {
+  gap: 4rem;
+}
+
 .content-area {
   display: flex;
   justify-content: center;
@@ -132,24 +142,10 @@ section {
   width: 100%;
 }
 
-#about-me .text-area {
-  width: 32rem;
-}
-
-#projects .container .content-area {
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, 14rem);
-}
-
 .card {
   background-color: var(--primary-background-color);
   padding: 1rem;
   height: 16rem;
-}
-
-#contact .container .content-area {
-  gap: 4rem;
 }
 
 #contact .left-text-area , #contact .right-text-area {
