@@ -172,6 +172,7 @@ input, textarea {
   padding-inline: 1rem;
   border-radius: 1.25rem;
   width: 100%;
+  font-size: inherit;
 }
 
 textarea {
@@ -186,6 +187,7 @@ textarea {
   padding-inline: 1rem;
   border-radius: 1.25rem;
   color: var(--primary-background-color);
+  font-size: inherit;
 }
 
 button {
