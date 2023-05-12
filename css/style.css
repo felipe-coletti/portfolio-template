@@ -16,6 +16,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-size: 0.875rem;
+}
+
 header {
   position: fixed;
   background-color: var(--primary-background-color);
@@ -156,10 +160,6 @@ h2 {
 
 main p {
   opacity: 70%;
-}
-
-p {
-  font-size: 0.875rem;
 }
 
 .image, h1, #home h2, #about-me h2, input, textarea {
