@@ -60,28 +60,16 @@ a {
   text-decoration: none;
 }
 
-#home, #about-me, #experience, #projects {
+main, #home {
   min-height: 100vh;
-}
-
-#contact {
-  min-height: calc(100vh - 3rem);
-}
-
-#home, #experience, #contact {
-  background-color: var(--primary-background-color);
-}
-
-#about-me, #projects {
-  background-color: var(--secondary-background-color);
 }
 
 section {
   display: flex;
+  background-color: var(--primary-background-color);
   justify-content: center;
   align-items: center;
-  padding-block: 7.5rem;
-  padding-inline: 4rem;
+  padding: 4rem;
 }
 
 #home .container .image-area, #home .container .text-area, .buttons-area {
@@ -140,7 +128,7 @@ section {
 }
 
 .card {
-  background-color: var(--primary-background-color);
+  background-color: var(--secondary-background-color);
   padding: 1rem;
   height: 16rem;
 }
