@@ -98,8 +98,8 @@ section {
   display: flex;
   border: none;
   border-radius: 50%;
-  color: var(--primary-background-color);
   padding: 0.5rem;
+  color: var(--primary-background-color);
   font-size: 1.5rem;
 }
 
@@ -173,6 +173,7 @@ textarea {
   padding-block: 0.5rem;
   padding-inline: 1rem;
   border-radius: 1.25rem;
+  width: 100%;
   color: var(--primary-background-color);
   font-size: inherit;
 }
@@ -223,10 +224,6 @@ footer {
 @media screen and (max-width: 640px) {
   header, li a, section {
     padding-inline: 1.5rem;
-  }
-
-  .filled-button {
-    width: 100%;
   }
 
   section {
