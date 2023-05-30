@@ -114,10 +114,6 @@ section {
   grid-template-columns: repeat(auto-fit, 14rem);
 }
 
-#contact .container .content-area {
-  gap: 4rem;
-}
-
 .content-area {
   display: flex;
   justify-content: center;
