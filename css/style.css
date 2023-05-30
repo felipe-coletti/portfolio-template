@@ -225,7 +225,7 @@ footer {
     padding-inline: 1.5rem;
   }
 
-  header, .title-area, #about-me .container, .content-area, .text-area, .unfilled-button, .filled-button {
+  header, .title-area, #about-me .container, .content-area, .text-area, .filled-button {
     width: 100%;
   }
 
