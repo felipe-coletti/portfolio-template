@@ -180,6 +180,7 @@ textarea {
   padding-block: 0.5rem;
   padding-inline: 1rem;
   border-radius: 1.25rem;
+  width: 100%;
   color: var(--primary-background-color);
   font-size: inherit;
 }
@@ -237,7 +238,7 @@ footer {
     display: flex;
     width: 100%;
     padding-block: 1rem;
-    padding-inline: 4rem;
+    padding-inline: 3rem;
   }
 
   .closed {
@@ -253,10 +254,6 @@ footer {
   /*header, li a, section {
     padding-inline: 1.5rem;
   }*/
-
-  header, .title-area, #about-me .container, .content-area, .text-area, .unfilled-button, .filled-button {
-    width: 100%;
-  }
 
   #map {
     flex-direction: column;
