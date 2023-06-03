@@ -48,9 +48,12 @@ header {
 }
 
 #menu {
-  list-style: none;
   display: flex;
   gap: 2rem;
+}
+
+ul {
+  list-style: none;
 }
 
 a {
@@ -196,6 +199,7 @@ footer {
 #map {
   display: flex;
   padding: 3rem;
+  width: 100%;
   gap: 1.5rem;
 }
 
@@ -214,6 +218,7 @@ footer {
 #credits {
   padding-block: 0.75rem;
   padding-inline: 3rem;
+  width: 100%;
 }
 
 @media screen and (max-width: 880px) {
