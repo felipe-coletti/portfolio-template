@@ -198,6 +198,7 @@ footer {
 
 #map {
   display: flex;
+  justify-content: center;
   padding: 3rem;
   width: 100%;
   gap: 1.5rem;
@@ -216,6 +217,7 @@ footer {
 }
 
 #credits {
+  text-align: center;
   padding-block: 0.75rem;
   padding-inline: 3rem;
   width: 100%;
