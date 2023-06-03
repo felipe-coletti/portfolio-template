@@ -58,8 +58,12 @@ a {
   text-decoration: none;
 }
 
-main, #home {
+main {
   min-height: 100vh;
+}
+
+#home {
+  min-height: calc(100vh - 3.5rem);
 }
 
 section {
