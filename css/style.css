@@ -146,7 +146,7 @@ main p {
   opacity: 70%;
 }
 
-.image, h1, #home h2, #about-me h2, input, textarea {
+.image, #home h2, input, textarea {
   margin-bottom: 0.75rem;
 }
 
