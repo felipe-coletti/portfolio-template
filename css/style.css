@@ -85,8 +85,8 @@ section {
 
 #home .container .image {
   border-radius: 50%;
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
 }
 
 .container {
@@ -111,14 +111,13 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1.5rem;
 }
 
 .rounded-filled-button {
   display: flex;
   border: none;
   border-radius: 50%;
-  padding: 0.5rem;
   font-size: 1.75rem;
 }
 
@@ -154,10 +153,6 @@ main p {
   opacity: 70%;
 }
 
-.image, #home h2, input, textarea {
-  margin-bottom: 0.75rem;
-}
-
 #contact .title-area {
   text-align: center;
 }
@@ -172,6 +167,7 @@ input, textarea {
   border: none;
   padding-block: 0.5rem;
   padding-inline: 1rem;
+  margin-bottom: 0.75rem;
   border-radius: 1.25rem;
   width: 100%;
   font-size: inherit;
