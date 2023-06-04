@@ -157,9 +157,9 @@ main p {
   text-align: center;
 }
 
-#form-area {
+form {
   width: 100%;
-  max-width: 20rem;
+  max-width: 24rem;
 }
 
 input, textarea {
