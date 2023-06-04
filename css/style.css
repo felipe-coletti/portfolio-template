@@ -101,6 +101,9 @@ section {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+#about-me .text-area, #experience .text-area, #projects .text-area, #contact .text-area {
   gap: 0.75rem;
 }
 
