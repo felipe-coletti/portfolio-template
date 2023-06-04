@@ -180,7 +180,7 @@ textarea {
 .filled-button {
   background-color: var(--button-color);
   border: none;
-  font-weight: bold;
+  /*font-weight: bold;*/
   padding-block: 0.5rem;
   padding-inline: 1rem;
   border-radius: 1.25rem;
