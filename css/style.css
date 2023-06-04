@@ -128,7 +128,7 @@ section {
 #projects .container .content-area {
   display: grid;
   grid-gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, 14rem);
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
 }
 
 .content-area {
