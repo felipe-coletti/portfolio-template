@@ -83,6 +83,10 @@ section {
   padding: 3rem;
 }
 
+#home .container {
+  align-items: center;
+}
+
 #home .container .image {
   border-radius: 50%;
   width: 10rem;
