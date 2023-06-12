@@ -211,12 +211,6 @@ footer {
   gap: 3rem;
 }
 
-.map-list-area {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
 .map-list {
   flex-direction: column;
   gap: 0.75rem;
