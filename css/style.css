@@ -205,9 +205,10 @@ footer {
 
 #map {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 3rem;
   width: 100%;
+  max-width: 48rem;
   gap: 3rem;
 }
 
