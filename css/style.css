@@ -85,6 +85,7 @@ section {
 
 #home .container {
   align-items: center;
+  gap: 0.75rem;
 }
 
 #home .container .image {
@@ -93,12 +94,15 @@ section {
   height: 10rem;
 }
 
+#about-me .container, #projects .container, #contact .container {
+  gap: 1.5rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 48rem;
-  gap: 1.5rem;
 }
 
 .text-area {
