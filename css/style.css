@@ -162,6 +162,8 @@ main p {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 24rem;
   gap: 1.5rem;
