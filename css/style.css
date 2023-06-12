@@ -164,6 +164,7 @@ main p {
 form {
   width: 100%;
   max-width: 24rem;
+  gap: 1.5rem;
 }
 
 input, textarea {
@@ -171,7 +172,6 @@ input, textarea {
   border: none;
   padding-block: 0.5rem;
   padding-inline: 1rem;
-  margin-bottom: 0.75rem;
   border-radius: 1.25rem;
   width: 100%;
   font-size: inherit;
