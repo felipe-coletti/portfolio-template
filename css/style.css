@@ -1,7 +1,6 @@
 :root {
   --primary-background-color: #fff;
   --secondary-background-color: #f9f9f9;
-  --highlight-color: #89D858;
   --text-color: #000;
   --button-color: #000;
 }
@@ -150,10 +149,6 @@ h1 {
 
 h2 {
   font-size: 0.875rem;
-}
-
-#map h2 {
-  text-transform: uppercase;
 }
 
 main p {
