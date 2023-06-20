@@ -152,6 +152,10 @@ h2 {
   font-size: 0.875rem;
 }
 
+#map h2 {
+  text-transform: uppercase;
+}
+
 main p {
   opacity: 70%;
 }
