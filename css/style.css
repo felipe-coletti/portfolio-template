@@ -110,20 +110,6 @@ section {
   gap: 1.5rem;
 }
 
-.buttons-area {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.rounded-filled-button {
-  display: flex;
-  border: none;
-  border-radius: 50%;
-  font-size: 1.5rem;
-}
-
 #projects .container .content-area {
   display: grid;
   grid-gap: 1.5rem;
