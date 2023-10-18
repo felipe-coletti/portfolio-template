@@ -89,12 +89,16 @@ main .container {
   max-width: 48rem;
 }
 
+.section, #map {
+  padding-block: 1.5rem;
+  padding-inline: 3rem;
+}
+
 .section {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 3rem;
 }
 
 #home {
@@ -183,7 +187,7 @@ footer {
 #map {
   display: flex;
   justify-content: space-between;
-  padding: 3rem;
+  /*padding: 3rem;*/
   width: 100%;
   max-width: 48rem;
   gap: 3rem;
