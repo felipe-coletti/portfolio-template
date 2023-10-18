@@ -247,7 +247,7 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
-  header, #menu a, main {
+  header, #menu a, .section, #map, #credits {
     padding-inline: 1.5rem;
   }
 
