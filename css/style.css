@@ -184,12 +184,7 @@ footer {
   align-items: center;
 }
 
-#map {
-  display: flex;
-  justify-content: space-between;
-  /*padding: 3rem;*/
-  width: 100%;
-  max-width: 48rem;
+footer .section {
   gap: 3rem;
 }
 
@@ -251,11 +246,11 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
-  header, #menu a, .section, #map, #credits {
+  header, #menu a, .section, #credits {
     padding-inline: 1.5rem;
   }
 
-  #map {
+  footer .section {
     flex-direction: column;
   }
 
