@@ -184,7 +184,8 @@ footer {
   align-items: center;
 }
 
-footer .section {
+footer .container {
+  justify-content: space-between;
   gap: 3rem;
 }
 
@@ -250,7 +251,7 @@ footer .section {
     padding-inline: 1.5rem;
   }
 
-  footer .section {
+  footer .container {
     flex-direction: column;
   }
 
