@@ -25,7 +25,6 @@ header {
     background-color: var(--primary-background-color);
     display: flex;
     justify-content: center;
-    padding-inline: 1.5rem;
     position: sticky;
     top: 0;
     width: 100%;
@@ -113,12 +112,9 @@ a {
     width: 100%;
 }
 
-#menu-header, #menu-options a {
-    padding-inline: 1.5rem;
-}
-
 header, #menu-header, #menu-options a {
     padding-block: 0.75rem;
+    padding-inline: 1.5rem;
 }
 
 main {
