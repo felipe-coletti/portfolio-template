@@ -1,124 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE-edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-  <title>Portfolio - Felipe Coletti</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <title>Portfolio - Felipe Coletti</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <a id="list-title" href="#home">Felipe Coletti</a>
-      <div id="hamburguer-menu" onclick="toggle()">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <ul id="menu" class="closed">
-        <li><a href="">Home</a></li>
-        <li><a href="#about-me">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <section id="home" class="section">
-      <div class="container">
-        <h1>Welcome to my portfolio!</h1>
-      </div>
-    </section>
-    <section id="about-me" class="section">
-      <div class="container">
-        <h1>About me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </section>
-    <section id="projects" class="section">
-      <div class="container">
-        <h1>Projects</h1>
-        <div class="grid">
-          <div class="card">
-            <img class="image" src="" alt="">
-            <h2>Project 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="card">
-            <img class="image" src="" alt="">
-            <h2>Project 2</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="card">
-            <img class="image" src="" alt="">
-            <h2>Project 3</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="card">
-            <img class="image" src="" alt="">
-            <h2>Project 4</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="card">
-            <img class="image" src="" alt="">
-            <h2>Project 5</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="card">
-            <img class="image" src="" alt="">
-            <h2>Project 6</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
+    <header>
+        <div class="container">
+            <a id="list-title" href="#home">Felipe Coletti</a>
+            <ul id="nav-menu">
+                <li><a href="">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div id="hamburguer-menu" onclick="toggle()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
-      </div>
-    </section>
-    <section id="contact" class="section">
-      <div class="container">
-        <h1>Contact</h1>
-        <form>
-          <input type="text" placeholder="Full name" required>
-          <input type="email" placeholder="E-mail" required>
-          <input type="text" placeholder="Subject" required>
-          <textarea placeholder="Message" rows="6" required></textarea>
-          <button type="submit" class="filled-button">Submit</button>
-        </form>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <section class="section">
-      <div class="container">
-        <ul class="map-list">
-          <li><h3>Quick links</h3></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about-me">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <ul class="map-list">
-          <li><h3>Social media</h3></li>
-          <li><a href="https://github.com/felipe-coletti" rel="noopener noreferrer" target="_blank">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/felipecolettii" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
-        </ul>
-        <div id="contact-map-lists">
-          <ul class="map-list">
-            <li><h3>Phone</h3></li>
-            <li><p>+55 (11) 97140-0431</p></li>
-          </ul>
-          <ul class="map-list">
-            <li><h3>E-mail</h3></li>
-            <li><p>felipecoletti2@gmail.com</p></li>
-          </ul>
+    </header>
+    <div id="menu-container" class="closed">
+        <div id="menu-backdrop" onclick="toggle()"></div>
+        <div id="menu-content-area">
+            <div id="menu-header">
+                <span id="close-menu" onclick="toggle()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg>
+                </span>
+            </div>
+            <ul id="menu-options">
+                <li><a href="" onclick="toggle()">Home</a></li>
+                <li><a href="#about-me" onclick="toggle()">About</a></li>
+                <li><a href="#projects" onclick="toggle()">Projects</a></li>
+                <li><a href="#contact" onclick="toggle()">Contact</a></li>
+            </ul>
         </div>
-      </div>
-    </section>
-    <div id="credits">
-      <p>&copy; 2023 Felipe Coletti</p>
     </div>
-  </footer>
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <h1>Welcome to my portfolio!</h1>
+            </div>
+        </section>
+        <section id="about-me" class="section">
+            <div class="container">
+                <h1>About me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <div class="container">
+                <h1>Projects</h1>
+                <div class="grid">
+                    <div class="card">
+                        <img class="image" src="" alt="">
+                        <h2>Project 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="card">
+                        <img class="image" src="" alt="">
+                        <h2>Project 2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="card">
+                        <img class="image" src="" alt="">
+                        <h2>Project 3</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="card">
+                        <img class="image" src="" alt="">
+                        <h2>Project 4</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="card">
+                        <img class="image" src="" alt="">
+                        <h2>Project 5</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="card">
+                        <img class="image" src="" alt="">
+                        <h2>Project 6</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <div class="container">
+                <h1>Contact</h1>
+                <form>
+                    <input type="text" placeholder="Full name" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Message" rows="6" required></textarea>
+                    <button type="submit" class="filled-button">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="section">
+            <div class="container">
+                <ul class="map-list">
+                    <li><h3>Quick links</h3></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul class="map-list">
+                    <li><h3>Social media</h3></li>
+                    <li><a href="https://github.com/felipe-coletti" rel="noopener noreferrer" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/felipecolettii" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+                </ul>
+                <div id="contact-map-lists">
+                    <ul class="map-list">
+                        <li><h3>Phone</h3></li>
+                        <li><p>+55 (11) 97140-0431</p></li>
+                    </ul>
+                    <ul class="map-list">
+                        <li><h3>E-mail</h3></li>
+                        <li><p>felipecoletti2@gmail.com</p></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div id="credits">
+            <p>&copy; 2023 Felipe Coletti</p>
+        </div>
+    </footer>
 </body>
 </html>

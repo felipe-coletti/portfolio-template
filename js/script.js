@@ -1,5 +1,5 @@
 function toggle() {
-    let list = document.querySelector('ul');
+    let list = document.getElementById("menu-container");
     
     if (list.classList.contains('closed')) {
         list.classList.replace('closed', 'opened');

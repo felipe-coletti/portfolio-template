@@ -21,13 +21,14 @@ body {
 }
 
 header {
+    align-items: center;
     background-color: var(--primary-background-color);
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-inline: 3rem;
+    padding-inline: 1.5rem;
+    position: sticky;
+    top: 0;
     width: 100%;
-    height: 3.5rem;
 }
 
 #list-title {
@@ -47,7 +48,7 @@ header {
     height: 0.125rem;
 }
 
-#menu {
+#nav-menu {
     gap: 2rem;
 }
 
@@ -59,6 +60,65 @@ ul {
 a {
     color: var(--text-color);
     text-decoration: none;
+}
+
+#menu-container {
+    height: 100vh;
+    justify-content: right;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.closed {
+    display: none;
+}
+
+.opened {
+    display: flex;
+}
+
+#menu-backdrop {
+    background-color: #00000040;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#close-menu {
+    display: flex;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#menu-content-area {
+    background-color: var(--primary-background-color);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    width: 20rem;
+}
+
+#menu-options {
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+#menu-options a {
+    display: flex;
+    width: 100%;
+}
+
+#menu-header, #menu-options a {
+    padding-inline: 1.5rem;
+}
+
+header, #menu-header, #menu-options a {
+    padding-block: 0.75rem;
 }
 
 main {
@@ -216,32 +276,11 @@ footer .container {
 }
 
 @media screen and (max-width: 880px) {
-    #hamburguer-menu {
-        display: flex;
-    }
-
-    #menu {
-        position: absolute;
-        top: 3.5rem;
-        left: 0;
-        background-color: var(--primary-background-color);
-        flex-direction: column;
-        width: 100%;
-        gap: 0;
-    }
-    
-    #menu a {
-        display: flex;
-        width: 100%;
-        padding-block: 1rem;
-        padding-inline: 3rem;
-    }
-
-    .closed {
+    #nav-menu {
         display: none;
     }
 
-    .opened {
+    #hamburguer-menu {
         display: flex;
     }
 }
