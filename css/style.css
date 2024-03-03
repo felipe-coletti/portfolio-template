@@ -1,8 +1,10 @@
 :root {
+    --primary-text-color: #000;
+    --secondary-text-color: #4b4b4b;
+    --highlight-color: #000;
+    --border-color: #ccc;
     --primary-background-color: #fff;
     --secondary-background-color: #f9f9f9;
-    --text-color: #000;
-    --button-color: #000;
 }
 
 * {
@@ -23,6 +25,7 @@ body {
 header {
     align-items: center;
     background-color: var(--primary-background-color);
+    border-bottom: 1px solid var(--border-color);
     display: flex;
     justify-content: center;
     position: sticky;
@@ -42,7 +45,7 @@ header {
 }
 
 #hamburguer-menu div {
-    background-color: var(--text-color);
+    background-color: var(--primary-text-color);
     width: 1.5rem;
     height: 0.125rem;
 }
@@ -57,7 +60,7 @@ ul {
 }
 
 a {
-    color: var(--text-color);
+    color: var(--primary-text-color);
     text-decoration: none;
 }
 
@@ -194,7 +197,7 @@ h3 {
 }
 
 main p {
-    color: #4b4b4b;
+    color: var(--secondary-text-color);
 }
 
 form {
@@ -220,7 +223,7 @@ textarea {
 }
 
 .filled-button {
-    background-color: var(--button-color);
+    background-color: var(--highlight-color);
     border: none;
     padding-block: 0.5rem;
     padding-inline: 1rem;
@@ -251,7 +254,7 @@ footer .container {
 }
 
 .map-list li a, .map-list li p {
-    color: #4b4b4b;
+    color: var(--secondary-text-color);
 }
 
 #contact-map-lists {
@@ -268,7 +271,7 @@ footer .container {
 }
 
 #credits p {
-    color: #4b4b4b
+    color: var(--secondary-text-color)
 }
 
 @media screen and (max-width: 880px) {
