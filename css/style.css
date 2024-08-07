@@ -18,18 +18,11 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-size: 0.875rem;
-}
-
 header {
     align-items: center;
     background-color: var(--primary-background-color);
-    border-bottom: 1px solid var(--border-color);
     display: flex;
     justify-content: center;
-    position: sticky;
-    top: 0;
     width: 100%;
 }
 
@@ -105,6 +98,10 @@ a {
     width: 20rem;
 }
 
+#menu-header {
+    display: flex;
+}
+
 #menu-options {
     flex-direction: column;
     overflow-y: auto;
@@ -115,7 +112,7 @@ a {
     width: 100%;
 }
 
-header, #menu-header, #menu-options a {
+#menu-header, #menu-options a {
     padding-block: 0.75rem;
     padding-inline: 1.5rem;
 }
@@ -129,23 +126,11 @@ main {
 }
 
 header .container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-main .container {
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-#contact .container {
-    align-items: center;
-}
-
-.container {
-    display: flex;
-    width: 100%;
-    max-width: 48rem;
+    padding-block: 0.75rem;
+    padding-inline: 3rem;
 }
 
 .section, #map {
@@ -156,8 +141,7 @@ main .container {
 .section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
+    gap: 1.5rem;
 }
 
 #home {
@@ -196,8 +180,13 @@ h3 {
     font-size: 0.875rem; 
 }
 
-main p {
+.paragraph {
     color: var(--secondary-text-color);
+    font-size: 0.875rem;
+}
+
+#contact {
+    align-items: center;
 }
 
 form {
@@ -211,11 +200,12 @@ form {
 input, textarea {
     background-color: var(--secondary-background-color);
     border: none;
+    border-radius: 1.25rem;
+    font-size: 0.875rem;
+    outline-color: var(--highlight-color);
     padding-block: 0.5rem;
     padding-inline: 1rem;
-    border-radius: 1.25rem;
     width: 100%;
-    font-size: inherit;
 }
 
 textarea {
@@ -225,16 +215,13 @@ textarea {
 .filled-button {
     background-color: var(--highlight-color);
     border: none;
+    border-radius: 1.25rem;
+    color: var(--primary-background-color);
+    cursor: pointer;
+    font-size: 0.875rem;
     padding-block: 0.5rem;
     padding-inline: 1rem;
-    border-radius: 1.25rem;
     width: 100%;
-    color: var(--primary-background-color);
-    font-size: inherit;
-}
-
-button {
-    cursor: pointer;
 }
 
 footer {
@@ -243,18 +230,20 @@ footer {
     align-items: center;
 }
 
-footer .container {
+#map {
+    display: flex;
     justify-content: space-between;
     gap: 3rem;
+}
+
+header .container, .section, #map {
+    max-width: 72rem;
+    width: 100%;
 }
 
 .map-list {
     flex-direction: column;
     gap: 0.75rem;
-}
-
-.map-list li a, .map-list li p {
-    color: var(--secondary-text-color);
 }
 
 #contact-map-lists {
@@ -270,10 +259,6 @@ footer .container {
     width: 100%;
 }
 
-#credits p {
-    color: var(--secondary-text-color)
-}
-
 @media screen and (max-width: 880px) {
     #nav-menu {
         display: none;
@@ -285,15 +270,12 @@ footer .container {
 }
 
 @media screen and (max-width: 640px) {
-    header, #menu a, .section, #credits {
+    header .container, #menu a, .section, #map, #credits {
         padding-inline: 1.5rem;
     }
 
-    footer .container {
+    #map {
         flex-direction: column;
-    }
-
-    #contact-map-lists {
-        gap: 3rem;
+        gap: 1.5rem;
     }
 }
