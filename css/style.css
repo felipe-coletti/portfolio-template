@@ -23,7 +23,15 @@ header {
     background-color: var(--primary-background-color);
     display: flex;
     justify-content: center;
+    padding-block: 0.75rem;
+    padding-inline: 3rem;
     width: 100%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #list-title {
@@ -118,23 +126,12 @@ a {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: var(--primary-background-color);
-    min-height: 100vh;
-}
-
-header .container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-block: 0.75rem;
-    padding-inline: 3rem;
-}
-
-.section, #map {
-    padding-block: 1.5rem;
+    flex-direction: column;
+    gap: 3rem;
+    min-height: 100vh;
     padding-inline: 3rem;
 }
 
@@ -169,7 +166,7 @@ header .container {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3.5rem;
 }
 
 h2 {
@@ -177,7 +174,7 @@ h2 {
 }
 
 h3 {
-    font-size: 0.875rem; 
+    font-size: 1rem; 
 }
 
 .paragraph {
@@ -224,20 +221,28 @@ textarea {
     width: 100%;
 }
 
+#line {
+    background-color: var(--border-color);
+    content: "";
+    display: flex;
+    height: 1px;
+}
+
 footer {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+header .container, .section, #line, footer {
+    max-width: 78rem;
+    width: 100%;
 }
 
 #map {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
-}
-
-header .container, .section, #map {
-    max-width: 78rem;
     width: 100%;
 }
 
@@ -255,7 +260,6 @@ header .container, .section, #map {
 #credits {
     text-align: center;
     padding-block: 0.75rem;
-    padding-inline: 3rem;
     width: 100%;
 }
 
