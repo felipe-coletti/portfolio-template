@@ -7,6 +7,17 @@
     --secondary-background-color: #ededed;
 }
 
+/*
+:root {
+    --primary-text-color: #fff;
+    --secondary-text-color: #b4b4b4;
+    --highlight-color: #fff;
+    --border-color: #333;
+    --primary-background-color: #000;
+    --secondary-background-color: #121212;
+}
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +30,7 @@ html {
 }
 
 .container {
+    background-color: var(--primary-background-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,6 +61,10 @@ header {
 #hamburguer-menu, #close-menu {
     cursor: pointer;
     font-size: 1.5rem;
+}
+
+#hamburguer-menu svg, #close-menu svg {
+    color: var(--primary-background-color);
 }
 
 #nav-menu {
@@ -121,7 +137,6 @@ a {
 
 main {
     align-items: center;
-    background-color: var(--primary-background-color);
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -177,6 +192,10 @@ h2 {
 
 h3 {
     font-size: 1rem;
+}
+
+h1, h2, h3 {
+    color: var(--primary-text-color);
 }
 
 .paragraph {
