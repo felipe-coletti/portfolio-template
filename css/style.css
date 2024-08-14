@@ -232,6 +232,8 @@ footer {
     align-items: center;
     display: flex;
     flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 0.75rem;
 }
 
 header .container, .section, #line, footer {
@@ -259,7 +261,6 @@ header .container, .section, #line, footer {
 
 #credits {
     text-align: center;
-    padding-block: 0.75rem;
     width: 100%;
 }
 
@@ -274,8 +275,12 @@ header .container, .section, #line, footer {
 }
 
 @media screen and (max-width: 640px) {
-    header .container, #menu a, .section, #map, #credits {
+    header, #menu a, main {
         padding-inline: 1.5rem;
+    }
+
+    footer {
+        gap: 1.5rem;
     }
 
     #map {
