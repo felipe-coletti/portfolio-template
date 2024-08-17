@@ -215,30 +215,28 @@ form {
     gap: 1rem;
 }
 
-input, textarea {
-    background-color: var(--secondary-background-color);
-    border: none;
-    border-radius: 1.25rem;
-    font-size: 0.875rem;
-    outline-color: var(--highlight-color);
-    padding-block: 0.5rem;
-    padding-inline: 1rem;
-    width: 100%;
-}
-
 textarea {
     resize: none;
 }
 
+input, textarea {
+    background-color: var(--secondary-background-color);
+    color: var(--primary-text-color);
+}
+
 .filled-button {
     background-color: var(--highlight-color);
-    border: none;
-    border-radius: 1.25rem;
     color: var(--primary-background-color);
     cursor: pointer;
+}
+
+input, textarea, .filled-button {
+    border: none;
+    border-radius: 0.5rem;
     font-size: 0.875rem;
+    outline-color: var(--highlight-color);
     padding-block: 0.5rem;
-    padding-inline: 1rem;
+    padding-inline: 0.75rem;
     width: 100%;
 }
 
