@@ -266,12 +266,6 @@ header, main, footer {
     gap: 1rem;
 }
 
-#contact-map-lists {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
 #credits {
     text-align: center;
     width: 100%;
