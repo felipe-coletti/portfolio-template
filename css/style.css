@@ -203,6 +203,16 @@ h1, h2, h3 {
     font-size: 0.875rem;
 }
 
+.link {
+    color: var(--primary-text-color);
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
 #contact {
     align-items: center;
 }
