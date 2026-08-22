@@ -1,0 +1,15 @@
+{
+	"name": "John Doe",
+	"title": "Front-end Developer",
+	"bio": "Hi! I'm John Doe, a passionate front-end developer with a love for crafting beautiful, responsive, and user-friendly web interfaces. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building modern web applications using frameworks like React and tools like Tailwind CSS.\n\nI believe great design and clean code go hand in hand. I'm always eager to learn new technologies, improve my skills, and contribute to meaningful projects that make the web a better place.\n\nWhen I'm not coding, you’ll find me exploring new UI trends, reading about web performance, or experimenting with side projects.\n\nLet’s build something awesome together!",
+	"location": "São Paulo, Brazil",
+	"email": "john.doe@email.com",
+	"phone": "",
+	"socialMedia": {
+		"github": "https://github.com/johndoe",
+		"linkedin": "https://linkedin.com/in/johndoe",
+		"twitter": "https://twitter.com/johndoe"
+	},
+	"avatar": "assets/images/avatar-small.jpg",
+	"aboutImage": "assets/images/avatar-large.jpg"
+}
